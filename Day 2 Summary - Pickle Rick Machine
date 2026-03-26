@@ -1,0 +1,10 @@
+
+Recon: Found Ports 22, 80 using Nmap.
+
+Enumeration: Found login.php via ffuf & discovered credentials in page source.
+
+Exploitation: Leveraged Command Injection in the portal. Bypassed cat restriction using less and grep.
+
+Privilege Escalation: Exploited (ALL) NOPASSWD: ALL in sudoers file to gain Root access.
+
+Flags Found: Ingredient 1, 2, and 3.
